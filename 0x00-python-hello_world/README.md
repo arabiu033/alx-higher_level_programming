@@ -35,7 +35,7 @@ At the end of this project, I was able to solve these questions:
 | Filename |
 | ------ |
 | [0-run](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x00-python-hello_world/0-run)|
-| [1-run_inline](hhttps://github.com/arabiu033/alx-higher_level_programming/blob/main/0x00-python-hello_world/1-run_inline)|
+| [1-run_inline](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x00-python-hello_world/1-run_inline)|
 | [2-print.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x00-python-hello_world/2-print.py)|
 | [3-print_number.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x00-python-hello_world/3-print_number.py)|
 | [4-print_float.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x00-python-hello_world/4-print_float.py)|
