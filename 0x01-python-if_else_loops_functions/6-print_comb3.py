@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-n = 0;
 for i in range(9):
     for j in range(1, 10):
         if i >= j:
