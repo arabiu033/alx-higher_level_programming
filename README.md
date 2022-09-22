@@ -10,8 +10,8 @@
 | Project Directory| Summary |
 | ------------------------------------|----| 
 | [0x00-python-hello-world](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x00-python-hello_world)| Introduction to python programming language| 
-<!-- | [0x01-python-if_else_loops_functions](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x01-python-if_else_loops_functions)| Implementation of If, Else and loops using python|
-| [0x02-python-import_modules](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x02-python-import_modules)| Implementation of scripts using module import|
+| [0x01-python-if_else_loops_functions](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x01-python-if_else_loops_functions)| Implementation of If, Else and loops using python|
+<!-- | [0x02-python-import_modules](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x02-python-import_modules)| Implementation of scripts using module import|
 | [0x03-python-data_structures](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x03-python-data_structures)| Understanding and implement data structures in Python|
 | [0x04-python-more_data_structures](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x04-python-more_data_structures)| Pt2 of the 0x03 project|
 | [0x05-python-exceptions](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x05-python-exceptions)| Scripts python implementation using exceptions |
