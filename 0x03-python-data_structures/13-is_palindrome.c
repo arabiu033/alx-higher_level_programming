@@ -28,7 +28,7 @@ int is_palindrome(listint_t **head)
 	}
 
 	rev = *head;
-
+	new = tail;
 	while (rev)
 	{
 		sig = rev->n == tail->n;
@@ -38,7 +38,7 @@ int is_palindrome(listint_t **head)
 		tail = tail->next;
 	}
 
-	free_listint(tail);
+	free_listint(new);
 	if (sig)
 		return (1);
 	return (0);
