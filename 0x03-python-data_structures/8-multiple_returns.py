@@ -1,4 +1,4 @@
-#!/usr/bin/pyton3
+#!/usr/bin/python3
 
 def multiple_returns(sentence):
     ch = None if len(sentence) == 0 else sentence[0]
