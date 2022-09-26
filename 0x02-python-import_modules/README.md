@@ -28,16 +28,16 @@ At the end of this project, I was able to solve these questions:
 
 | Filename |
 | ------ |
-| [0-add.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/0-add.py)|
-| [1-calculation.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/1-calculation.py)|
-| [2-args.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/2-args.py)|
-| [3-infinite_add.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/3-infinite_add.py)|
-| [4-hidden_discovery.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/4-hidden_discovery.py)|
-| [5-variable_load.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/5-variable_load.py)|
-| [100-my_calculator.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/100-my_calculator.py)|
-| [101-easy_print.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/101-easy_print.py)|
-| [102-magic_calculation.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/102-magic_calculation.py)|
-| [103-fast_alphabet.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x02-python-import_modules/103-fast_alphabet.py)|
+| [0-add.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/0-add.py)|
+| [1-calculation.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/1-calculation.py)|
+| [2-args.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/2-args.py)|
+| [3-infinite_add.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/3-infinite_add.py)|
+| [4-hidden_discovery.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/4-hidden_discovery.py)|
+| [5-variable_load.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/5-variable_load.py)|
+| [100-my_calculator.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/100-my_calculator.py)|
+| [101-easy_print.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/101-easy_print.py)|
+| [102-magic_calculation.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/102-magic_calculation.py)|
+| [103-fast_alphabet.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x02-python-import_modules/103-fast_alphabet.py)|
 
 
 ## Additional info :construction:
