@@ -4,7 +4,7 @@
 
 class Square:
     """ Anothe Square class with mode advance verification """
-    _size = 0
+    __size = 0
 
     def __init__(self, size=0):
         if type(size) != int:
