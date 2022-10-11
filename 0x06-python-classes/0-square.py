@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Class Declaration """
+""" No Modules Imported """
 
 
 class Square:
