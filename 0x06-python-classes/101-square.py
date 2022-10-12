@@ -60,7 +60,7 @@ class Square:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
-    def __str__(self):
+    def __repr__(self):
         """ Make the class instances to be use anywhere string is used """
         strr = ""
         if not self.size:
