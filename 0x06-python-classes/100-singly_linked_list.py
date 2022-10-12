@@ -68,8 +68,9 @@ class SinglyLinkedList:
     def __repr__(self):
         """ Serve as a string """
         temp = self.__head
-        while temp.next_node:
+        while temp and temp.next_node:
             print(temp.data)
             temp = temp.next_node
-        print(temp.data, end="")
+        if temp:
+            print(temp.data, end="")
         return ""
