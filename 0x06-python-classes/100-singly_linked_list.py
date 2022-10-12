@@ -57,7 +57,7 @@ class SinglyLinkedList:
             hold = temp
             temp = temp.next_node
 
-        if hold is not None:
+        if hold is None:
             new = Node(value, temp)
             self.__head = new
             return
