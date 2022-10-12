@@ -64,7 +64,7 @@ class Square:
         """ Make the class instances to be use anywhere string is used """
         strr = ""
         if not self.size:
-            return "\n"
+            return ""
 
         for i in range(self.position[1]):
             strr += "\n"
