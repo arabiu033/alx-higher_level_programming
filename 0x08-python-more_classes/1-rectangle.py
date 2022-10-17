@@ -1,0 +1,43 @@
+#!/usr/bin/python3
+""" No Module Imported """
+
+
+class Rectangle:
+    """ A rectangle class with some attribures declared
+
+    setter and getters methods include """
+    __width = 0
+    __height = 0
+
+    def __init__(self, width=0, height=0):
+        """ Intialize the class instances """
+        self.height = height
+        self.width = width
+
+    @property
+    def width(self):
+        """ Return the value of width """
+        return self.width
+
+    @property
+    def height(self):
+        """ Return the value of height """
+        return self.height
+
+    @width.setter
+    def width(self, width):
+        """ Set the width to a new value """
+        if type(width) != int:
+            raise TypeError("size must be an integer")
+        if width < 0:
+            raise ValueError("size must be >= 0")
+        self.__width = width
+
+    @height.setter
+    def height(self, height):
+        """ Set the width to a new value """
+        if type(height) != int:
+            raise TypeError("size must be an integer")
+        if height < 0:
+            raise ValueError("size must be >= 0")
+        self.__height = height
