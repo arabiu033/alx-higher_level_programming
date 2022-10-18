@@ -66,7 +66,7 @@ class Rectangle:
     @classmethod
     def square(cls, size=0):
         """ Static class to generate square rectangle """
-        return cls(size, size)
+        return Rectangle(size, size)
 
     def __str__(self):
         """ Make the instances of the class printable like string """
