@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-
+""" Imprted sys module """
 import sys
 
 def solve(row, column):
+    """ Find the location to place the queen """
     solver = [[]]
     return solver
 
 def place_queen(q, column, prev_solver):
+    """ Finally place the queens in their locations """
     solver_queen = []
     for array in prev_solver:
         for x in range(column):
@@ -15,6 +17,7 @@ def place_queen(q, column, prev_solver):
     return solver_queen
 
 def is_safe(q, x, array):
+    """ Deterimine if location is safe """
     if x in array:
         return (False)
     else:
@@ -23,6 +26,7 @@ def is_safe(q, x, array):
 
 
 def init():
+    """ Verify if the inputs are valid """
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
@@ -37,7 +41,7 @@ def init():
     return(the_queen)
 
 def n_queens():
-
+    """ The starting method """
     the_queen = init()
     solver = solve(the_queen, the_queen)
     for array in solver:
