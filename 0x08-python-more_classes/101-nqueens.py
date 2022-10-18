@@ -2,10 +2,12 @@
 """ Imprted sys module """
 import sys
 
+
 def solve(row, column):
     """ Find the location to place the queen """
     solver = [[]]
     return solver
+
 
 def place_queen(q, column, prev_solver):
     """ Finally place the queens in their locations """
@@ -15,6 +17,7 @@ def place_queen(q, column, prev_solver):
             if is_safe(q, x, array):
                 solver_queen.append(array + [x])
     return solver_queen
+
 
 def is_safe(q, x, array):
     """ Deterimine if location is safe """
@@ -39,6 +42,7 @@ def init():
         print("N must be at least 4")
         sys.exit(1)
     return(the_queen)
+
 
 def n_queens():
     """ The starting method """
