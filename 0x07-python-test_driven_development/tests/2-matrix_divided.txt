@@ -1,0 +1,61 @@
+# 2-matrix_divided.txt
+
+==============================
+How to use 2-matrix_divided.py
+==============================
+
+List of lists cotaining Integers or Floats only
+==============================================
+
+This list rows must be equal in lenght
+=====================================
+
+A new modified list is return at the end
+========================================
+
+`` matrix_divided `` function return a new list of list after dividing each element by a particular constant
+
+::
+
+Import the function
+       >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+Check for un equal row lenghs
+      >>> matrix_divided([[1, 2, 3], [4, 6]], 3)
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: Each row of the matrix must have the same size
+
+Check for non digit in the list
+      >>> matrix_divided([[1, 2, 3], [4, float('nan'), 6]], 3)
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Check for zero division
+      >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 0)
+      Traceback (most recent call last):
+      ...
+      ...
+      ZeroDivisionError: division by zero
+
+Check for round deciamls into 2
+      >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 3)
+      [[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+
+Check for empty list passed
+      >>> matrix_divided([], 5)
+      []
+
+Check for one row passec
+      >>> matrix_divided([[1, 2, 3]], 3)
+      [[0.33, 0.67, 1.0]]
+
+Check for when list of integers passed
+      >>> matrix_divided([1, 2, 3], 3)
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: matrix must be a matrix (list of lists) of integers/floats
