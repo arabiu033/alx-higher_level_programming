@@ -1,0 +1,29 @@
+# 3-say_my_name.txt
+
+=============================
+How to use 3-say_my_name.py
+============================
+
+Passed a string of first and last name for display
+=================================================
+
+Nice output will be display of the names
+=======================================
+
+`` say_my_name `` function print the names passed
+
+::
+
+import the function
+       >>> say_my_name = __import__('3-say_my_name').say_my_name
+
+Check for what happend when empty args is passed
+      >>> say_my_name("")
+      My name is  
+
+check for non string passed
+      >>> say_my_name("aminu", 56)
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: last_name must be a string
