@@ -2,7 +2,7 @@
 """ No module exported """
 
 
-def print_square(size):
+def print_square(size=""):
     """ This function print a square of rectangle """
     if type(size) is not int:
         raise TypeError("size must be an integer")
@@ -13,4 +13,3 @@ def print_square(size):
         for j in range(size):
             print("#", end="")
         print()
-    
