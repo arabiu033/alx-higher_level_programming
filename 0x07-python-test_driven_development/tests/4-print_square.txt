@@ -1,0 +1,35 @@
+# 4-print_square.txt
+
+============================
+How to use 4-print_square.py
+============================
+
+Pass a square size nad the function will display a nice square
+=============================================================
+
+`` print_square `` print the square base on the size passed
+
+:::
+
+import the module for the testing
+       >>> print_square = __import__('4-print_square').print_square
+
+Check for passing in int size:
+      >>> print_square(3)
+      ###
+      ###
+      ###
+
+Check for passing a float size:
+      >>> print_square(3.0)
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: size must be an integer
+
+Check for negative size
+      >>> print_square(-3)
+      Traceback (most recent call last):
+      ...
+      ...
+      ValueError: size must be >= 0
