@@ -18,3 +18,15 @@ class TestMaxInteger(unittest.TestCase):
     def test_3(self):
         """ test for negative lists """
         self.assertEqual(max_integer([-3, -5, -2, -1]), -1)
+
+    def test_4(self):
+        """ test for one digit """
+        self.assertEqual(max_integer([4]), 4)
+
+    def test_5(self):
+        """ test for max num at begining f list """
+        self.assertEqual(max_integer([4, 3, 2, 1]), 4)
+
+    def test_6(self):
+        """ test for max in middle """
+        self.assertEqual(max_integer([4, 3, 6, 2, 1]), 6)
