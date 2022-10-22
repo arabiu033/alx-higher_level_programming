@@ -3,10 +3,15 @@
 
 
 def text_indentation(text=0):
-    """ prints a text with 2 new lines after each of these characters: ., ? and : """
+    """ prints a text with 2 new lines after each of
+    these characters: ., ? and : """
+
     if type(text) is not str:
         raise TypeError("text must be a string")
 
+    text = ".".join(text.split(". "))
+    text = "?".join(text.split("? "))
+    text = ":".join(text.split(": "))
     text = ".\n\n".join(text.split("."))
     text = "?\n\n".join(text.split("?"))
     text = ":\n\n".join(text.split(":"))

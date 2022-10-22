@@ -18,7 +18,7 @@ Import the module for testing
        >>> text_indentation = __import__('5-text_indentation').text_indentation
 
 Check for when string is passed
-      >>> text_indentation("Aminu:Rabiu")
+      >>> text_indentation("Aminu: Rabiu")
       Aminu:
       <BLANKLINE>
       Rabiu
