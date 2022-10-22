@@ -1,0 +1,38 @@
+# 5-text_indentation.txt
+
+===============================
+How to use 5-text_indentation.py
+===============================
+
+Passed a string to parse
+========================
+
+prints a text with 2 new lines after each of these characters: ., ? and :
+=========================================================================
+
+`` text_indentation `` this function takes a string and print it out in a particular order
+
+:::
+
+Import the module for testing
+       >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Check for when string is passed
+      >>> text_indentation("Aminu: Rabiu")
+      Aminu:
+      <BLANKLINE>
+      Rabiu
+
+Check for when non string  is passed
+      >>> text_indentation(55)
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: text must be a string
+
+Check for when no args is passed
+      >>> text_indentation()
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: text must be a string
