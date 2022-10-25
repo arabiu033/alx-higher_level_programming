@@ -16,7 +16,7 @@
 | [0x04-python-more_data_structures](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x04-python-more_data_structures)| Pt2 of the 0x03 project|
 | [0x05-python-exceptions](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x05-python-exceptions)| Scripts python implementation using exceptions |
 | [0x06-python-classes](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x06-python-classes)|Scripts using classes. Introduction to OOP|
-| [0x07-python-test_driven_development](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x00-python-hello_world)| Scripts using matrix, numpy and introduction to unittesting module|         
+| [0x07-python-test_driven_development](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x07-python-test_driven_development)| Scripts using matrix, numpy and introduction to unittesting module|         
 | [0x08-python-more_classes](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x08-python-more_classes)| Python script to extend OOP use and implementation with python|
 | [0x09-python-everthing_is_object](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x09-python-everything_is_object)| Implementation of a OOP objects using python|
 <!-- | [0x0A-python-inheritance](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0A-python-inheritance)| Python scripts using inheritance, more OOP programming with python |
