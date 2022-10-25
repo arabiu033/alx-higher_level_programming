@@ -13,3 +13,13 @@ Check for five elements
 >>> my_list.print_sorted()
 [1, 2, 5]
 
+Check for one value
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.print_sorted()
+[1]
+
+Check for zero calue
+>>> my_list = MyList()
+>>> my_list.print_sorted()
+[]
