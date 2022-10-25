@@ -6,20 +6,25 @@ import the class to test
 >>> MyList = __import__('1-my_list').MyList
 
 Check for five elements
->>> my_list = MyList()
->>> my_list.append(1)
->>> my_list.append(5)
->>> my_list.append(2)
->>> my_list.print_sorted()
-[1, 2, 5]
+      >>> my_list = MyList()
+      >>> my_list.append(1)
+      >>> my_list.append(5)
+      >>> my_list.append(2)
+      >>> my_list.print_sorted()
+      [1, 2, 5]
 
 Check for one value
->>> my_list = MyList()
->>> my_list.append(1)
->>> my_list.print_sorted()
-[1]
+      >>> my_list = MyList()
+      >>> my_list.append(1)
+      >>> my_list.print_sorted()
+      [1]
 
 Check for zero calue
->>> my_list = MyList()
->>> my_list.print_sorted()
-[]
+      >>> my_list = MyList()
+      >>> my_list.print_sorted()
+      []
+
+Check for negative values
+     >>> my_list = MyList([-5, -6, 7, -3, 0])
+      >>> my_list.print_sorted()
+      [-6, -5, -3, 0, 7]
