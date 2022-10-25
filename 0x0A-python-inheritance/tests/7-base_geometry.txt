@@ -1,0 +1,34 @@
+============================ TESTS ===============================
+
+:::
+Import the class test
+       >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+Check for valid inputs
+      >>> bg = BaseGeometry()
+      >>> bg.integer_validator("my_int", 12)
+
+Check for invalid inputs
+      >>> bg = BaseGeometry()
+      >>> bg.integer_validator("name", "John")
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: name must be an integer
+
+Check for negetove number
+      >>> bg = BaseGeometry()
+      >>> bg.integer_validator("my_int", -12)
+      Traceback (most recent call last):
+      ...
+      ...
+      ValueError: my_int must be greater than 0
+
+Check for missing arg
+      >>> bg = BaseGeometry()
+      >>> bg.integer_validator("name")
+      Traceback (most recent call last):
+      ...
+      ...
+      TypeError: name must be an integer
+
