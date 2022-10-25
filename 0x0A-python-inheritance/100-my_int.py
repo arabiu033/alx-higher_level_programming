@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ No module imported """
 
+
 class MyInt(int):
     """Type class of MyInt inherit int type"""
 
