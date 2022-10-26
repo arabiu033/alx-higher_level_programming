@@ -43,20 +43,18 @@ At the end of this project, I was able to solve these questions:
 | Filename |
 | ------ |
 | [0-read_file.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/0-read_file.py)|
-| [1-number_of_lines.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/1-number_of_lines.py)|
-| [2-read_lines.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/2-read_lines.py)|
-| [3-write_file.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/3-write_file.py)|
-| [4-append_write.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/4-append_write.py)|
-| [5-to_json_string.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/5-to_json_string.py)|
-| [6-from_json_string.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/6-from_json_string.py)|
-| [7-save_to_json_file.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/7-save_to_json_file.py)|
-| [8-load_from_json_file.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/8-load_from_json_file.py)|
-| [9-add_item.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/9-add_item.py)|
-| [10-class_to_json.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/10-class_to_json.py)|
-| [11-student.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/11-student.py)|
-| [12-student.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/12-student.py)|
-| [13-student.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/13-student.py)|
-| [14-pascal_triangle.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/14-pascal_triangle.py)|
+| [1-write_file.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/3-write_file.py)|
+| [2-append_write.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/4-append_write.py)|
+| [3-to_json_string.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/5-to_json_string.py)|
+| [4-from_json_string.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/6-from_json_string.py)|
+| [5-save_to_json_file.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/7-save_to_json_file.py)|
+| [6-load_from_json_file.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/8-load_from_json_file.py)|
+| [7-add_item.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/9-add_item.py)|
+| [8-class_to_json.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/10-class_to_json.py)|
+| [9-student.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/11-student.py)|
+| [10-student.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/12-student.py)|
+| [11-student.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/13-student.py)|
+| [12-pascal_triangle.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/14-pascal_triangle.py)|
 | [100-append_after.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/100-append_after.py)|
 | [101-stats.pypy](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0B-python-input_output/101-stats.py)|
 
