@@ -1,9 +1,7 @@
 #!/usr/bin/python3
+""" sys module imported """
+import sys
 
-if __name__ == "__main__":
-
-    """ sys module imported """
-    import sys
 
     size = 0
     statuscd = {}
