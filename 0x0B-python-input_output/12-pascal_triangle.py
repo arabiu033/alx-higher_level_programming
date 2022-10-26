@@ -9,10 +9,10 @@ def pascal_triangle(n):
         return []
 
     outer = [[1]]
-    for i in range(n):
+    for i in range(n-1):
         inner = []
-        print(len(outer[i]))
-        for j in range(len(outer[i])):
+        print(i)
+        for j in range(0, len(outer[i])):
             if j == 0 or j == len(outer[i]) - 1:
                 inner.append(outer[i][j])
                 continue
