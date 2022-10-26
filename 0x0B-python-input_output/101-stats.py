@@ -2,6 +2,7 @@
 
 if __name__ == "__main__":
 
+    """ sys module imported """
     import sys
 
     size = 0
