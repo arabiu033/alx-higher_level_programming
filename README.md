@@ -2,7 +2,7 @@
 
 [![C|C](https://img.shields.io/badge/Python-57.7%25-blue.svg)](https://sourcerer.io/arabiu033) <!-- [![C|C](https://img.shields.io/badge/JS-6.9%25-yellowgreen.svg)](https://sourcerer.io/arabiu033) -->[![C|C](https://img.shields.io/badge/C-41.6%25-orange.svg)](https://sourcerer.io/arabiu033) <!--[![C|C](https://img.shields.io/badge/HTML-3.5%25-yellow.svg)](https://sourcerer.io/arabiu033) [![C|C](https://img.shields.io/badge/SQL-2.6%25-lightgrey.svg)](https://sourcerer.io/arabiu033) -->[![C|C](https://img.shields.io/badge/Shell-0.6%25-green.svg)](https://sourcerer.io/arabiu033)
 
-> High level programming projects based in Python language
+> High level programming projects based in Python language.
 
 
 # Projects inside this repo :bike:
