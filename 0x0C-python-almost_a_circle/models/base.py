@@ -36,3 +36,18 @@ class Base:
             objs.append(list_objs[i].to_dictionary())
         with open(filename, mode="w", encoding="utf-8") as fil:
             fil.write(cls.to_json_string(objs))
+
+    def from_json_string(json_string):
+        """
+        returns the list of the JSON string representation json_string
+        """
+        return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """
+        returns an instance with all attributes already set
+        """
+        dummy = cls(5, 5, 5)
+        dummy.update(**dictionary)
+        return dummy
