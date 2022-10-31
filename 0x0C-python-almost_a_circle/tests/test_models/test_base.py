@@ -100,7 +100,7 @@ class Test_save_to_file(unittest.TestCase):
         with open("Base.json") as fil:
             self.assertTrue(len(fil.read()))
 
-class Test_from_json_string(unitttest.TestCase):
+class Test_from_json_string(unittest.TestCase):
     """ Test for method from_json_string """
 
     def test_none(self):
@@ -118,7 +118,7 @@ class Test_from_json_string(unitttest.TestCase):
 
     def test_no_para(self):
         """ Test for no parameter """
-         with self.assertRaises(TypeError):
+        with self.assertRaises(TypeError):
              Base.from_json_string()
 
     def test_from_json_dictR(self):

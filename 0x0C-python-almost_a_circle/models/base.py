@@ -23,6 +23,8 @@ class Base:
         """
         returns the JSON string representation of list_dictionaries
         """
+        if list_dictionaries is None:
+            return "[]"
         return json.dumps(list_dictionaries)
 
     @classmethod
@@ -30,6 +32,8 @@ class Base:
         """
         writes the JSON string representation of list_objs to a file
         """
+        if type(list_objs) is not list:
+            list_objs = []
         filename = cls.__name__ + ".json"
         objs = []
         for i in range(len(list_objs)):
@@ -41,6 +45,8 @@ class Base:
         """
         returns the list of the JSON string representation json_string
         """
+        if json_string is None or len(json_string) == 0:
+            return []
         return json.loads(json_string)
 
     @classmethod
