@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """ All required modules imported """
 import unittest
-from model.base import Base
-from model.square import Square
+from models.base import Base
+from models.square import Square
 
 
 class Test_instances(unittest.TestCase):
