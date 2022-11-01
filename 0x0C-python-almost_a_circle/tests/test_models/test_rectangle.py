@@ -46,12 +46,12 @@ class Test_width(unittest.TestCase):
 
     def test_none(self):
         """ Test for none """
-         with self.assertRaisesRegex(TypeError, "width must be an integer"):
+        with self.assertRaisesRegex(TypeError, "width must be an integer"):
              Rectangle(None, 10)
 
     def test_negative(self):
         """ Test for negative value """
-        with self.assertRaisesRegex(TypeError, "width must be > 0"):
+        with self.assertRaisesRegex(ValueError, "width must be > 0"):
             Rectangle(-5, 5)
 
 class Test_height(unittest.TestCase):
@@ -59,10 +59,10 @@ class Test_height(unittest.TestCase):
 
     def test_none(self):
         """ Test for none """
-         with self.assertRaisesRegex(TypeError, "height must be an integer"):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
              Rectangle(10, None)
 
     def test_negative(self):
         """ Test for negative value """
-        with self.assertRaisesRegex(TypeError, "height must be > 0"):
+        with self.assertRaisesRegex(ValueError, "height must be > 0"):
             Rectangle(5, -5)
