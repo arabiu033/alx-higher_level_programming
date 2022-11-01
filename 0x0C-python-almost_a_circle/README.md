@@ -40,11 +40,11 @@ At the end of this project, I was able to solve these questions:
 
 | Filename |
 | ------ |
-| [tests/](https://github.com/arabiu033/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle/tests/test_models)|
-| [models/base.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x0C-python-almost_a_circle/models/base.py)|
-| [models/rectangle.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x0C-python-almost_a_circle/models/rectangle.py)|
-| [models/square.py](https://github.com/arabiu033/alx-higher_level_programming/blob/master/0x0C-python-almost_a_circle/models/square.py)|
-| [models/](https://github.com/arabiu033/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle/models)|
+| [tests/](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/tests/test_models)|
+| [models/base.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0C-python-almost_a_circle/models/base.py)|
+| [models/rectangle.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0C-python-almost_a_circle/models/rectangle.py)|
+| [models/square.py](https://github.com/arabiu033/alx-higher_level_programming/blob/main/0x0C-python-almost_a_circle/models/square.py)|
+| [models/](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models)|
 
 ## Additional info :construction:
 ### Resources
