@@ -17,7 +17,8 @@ class Square(Rectangle):
         returns [Square] (<id>) <x>/<y> - <size>
         """
         return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y,
-                                                       self.width)
+                                                 self.width)
+
     @property
     def size(self):
         return self.width
@@ -54,4 +55,4 @@ class Square(Rectangle):
 
     def to_dictionary(self):
         """ returns the dictionary representation of a Square """
-        return {"id":self.id, "x":self.x, "size":self.size, "y":self.y}
+        return {"id": self.id, "x": self.x, "size": self.size, "y": self.y}
