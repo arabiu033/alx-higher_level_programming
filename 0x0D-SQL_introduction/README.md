@@ -2,7 +2,7 @@
 
 > SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. This project covers the part 1 of SQL. The purpose of these SQL projects is to gain skills to manipulate SQL along Python to enhance the data engineering
 
-At the end of this project, I was able to solve these questions:
+<!-- At the end of this project, I was able to solve these questions:
   
 * What’s a database
 * What’s a relational database
@@ -35,10 +35,10 @@ At the end of this project, I was able to solve these questions:
 14. Script that computes the score average of all records in the table second_table of the database hbtn_0c_0 in your MySQL server. 
 15. Script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server. 
 16. Script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
-<!-- 17. Script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server.
+17. Script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server.
 18. Script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
 19. Script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
-20. Script that displays the max temperature of each state (ordered by State name). -->
+20. Script that displays the max temperature of each state (ordered by State name).
  
 
 ## Results :chart_with_upwards_trend:
@@ -65,3 +65,4 @@ mysql -hlocalhost -uroot -p
 TEST SCRIPT
 cat FILENAME.sql | mysql -hlocalhost -uroot -p
 ```
+-->
