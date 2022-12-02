@@ -22,8 +22,8 @@
 | [0x0A-python-inheritance](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0A-python-inheritance)| Python scripts using inheritance, more OOP programming with python |
 | [0x0B-python-input_output](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0B-python-input_output)| Implementing python scripts using OOP paradigm as well as JSON manipulation|
 | [0x0C-python-almost_a_circle](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle)|Functional OOP python program|
-<!-- | [0x0D-SQL_introduction](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0D-SQL_introduction)| Fundamentals on SQL using MySQL and MariaDB|
-| [0x0E-SQL_more_queries](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0E-SQL_more_queries)| Extend the SQL concepts with functional scripts and queries|
+| [0x0D-SQL_introduction](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0D-SQL_introduction)| Fundamentals on SQL using MySQL and MariaDB|
+<!--| [0x0E-SQL_more_queries](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0E-SQL_more_queries)| Extend the SQL concepts with functional scripts and queries|
 | [0x0F-python-object_relational_mapping](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x0F-python-object_relational_mapping)| Object relational mapping implementation on OOP and SQL|
 | [0x10-python-network_0](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x10-python-network_0)|Scripts applying HTTP requests |
 | [0x11-python-network_1](https://github.com/arabiu033/alx-higher_level_programming/tree/main/0x10-python-network_1)| Pt 2 of the 0x10 Python network_0 project|
