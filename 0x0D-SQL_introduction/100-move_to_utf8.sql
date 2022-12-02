@@ -2,7 +2,6 @@
 USE hbtn_0c_0
 
 ALTER DATABASE
-READ ONLY = 0
 CHARACTER SET utf8mb4
 DEFAULT COLLATE utf8mb4_unicode_ci
 ;
