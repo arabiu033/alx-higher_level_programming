@@ -8,5 +8,4 @@ for (const key in dict) {
   obj[dict[key]].push(key);
 }
 
-console.log(dict);
 console.log(obj);
