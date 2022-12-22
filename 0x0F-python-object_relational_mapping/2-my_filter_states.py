@@ -9,7 +9,8 @@ if __name__ == "__main__":
                               passwd=sys.argv[2],
                               db=sys.argv[3], charset="utf8")
     cursor = connect.cursor()
-    cursor.execute("SELECT * FROM states WHERE name = %s ORDER BY id ASC", [sys.argv[4]])
+    cursor.execute("SELECT * FROM states WHERE name = %s ORDER BY id ASC",
+                   [sys.argv[4]])
     for row in cursor.fetchall():
         print(row)
     cursor.close()
