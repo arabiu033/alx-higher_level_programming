@@ -10,7 +10,7 @@ if __name__ == "__main__":
                               db=sys.argv[3], charset="utf8")
     cursor = connect.cursor()
     cursor.execute("SELECT * FROM states WHERE BINARY \
-    name = '{}' ORDER BY id ASC".format(sys.argv[4].split(';')[0][0:-1]))
+    name = '{}' ORDER BY id ASC".format(sys.argv[4].split("';")[0]))
     for row in cursor.fetchall():
         print(row)
     cursor.close()
