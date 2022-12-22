@@ -13,7 +13,8 @@ if __name__ == "__main__":
     Base.metadata.create_all(engine)
     session = Session()
 
-    row = session.query(State).filter(State.name==sys.argv[4].split("';")[0]).first()
+    row = session.query(State).filter(
+        State.name == sys.argv[4].split("';")[0]).first()
     if row:
         print(row.id)
     else:
