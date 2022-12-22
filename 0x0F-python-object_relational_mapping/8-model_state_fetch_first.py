@@ -17,4 +17,4 @@ if __name__ == "__main__":
     if row:
         print("{}: {}".format(row.id, row.name))
     else:
-        print("Nothing\n")
+        print("Nothing")
