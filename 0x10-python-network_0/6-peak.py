@@ -3,6 +3,7 @@
 
 
 def find_peak(list_of_integers):
+    """ Call another function in recursive way """
     if (not len(list_of_integers)):
         return None
     # Use anoher function so as to call it appropriately
@@ -11,7 +12,7 @@ def find_peak(list_of_integers):
 
 # Using recursive binary search
 def peak(arr, start, end):
-
+    """ Find out the peak element """
     # we've reache to the begining of the array
     if (start >= end):
         return arr[end]
